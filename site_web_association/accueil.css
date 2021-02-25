@@ -1,0 +1,53 @@
+.explication {
+  text-align: center;
+  font-weight: 200;
+}
+
+h1 {
+  text-align: center;
+  color: #FF4633;
+}
+
+.img-fluid {
+  margin-left: 15px;
+  height: 30vh;
+}
+
+.carousel .carousel-inner {
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+.carousel .carousel-item img {
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background: lightgray;
+  color: #FF4633;
+  padding: 3rem 0;
+}
+footer .container-fluid {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+footer .bi-instagram {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .img-fluid {
+    margin-left: 45px;
+    height: 90vh;
+  }
+}
+
+/*# sourceMappingURL=accueil.css.map */
