@@ -49,5 +49,41 @@ footer .bi-instagram {
     height: 90vh;
   }
 }
+@media screen and (min-width: 768px) {
+  .img-fluid {
+    margin-left: 45px;
+    height: 60vh;
+  }
+}
+@media screen and (min-width: 1430px) {
+  .img-fluid {
+    float: left;
+    width: 50%;
+    height: 40vh;
+    margin-bottom: 10px;
+  }
+
+  .carousel .carousel-inner {
+    height: 50em;
+  }
+
+  .customers {
+    display: flex;
+    justify-content: left;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    width: 10%;
+    height: 10%;
+  }
+
+  .magic {
+    display: flex;
+    align-content: space-between;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    width: 10%;
+    height: 10%;
+  }
+}
 
 /*# sourceMappingURL=accueil.css.map */
