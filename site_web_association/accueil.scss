@@ -9,9 +9,13 @@ h1{
   text-align: center;
   color: #FF4633;
 }
-.texte_caroussel {
+.carousel-item h1 {
   position: absolute;
+  margin: 0;
   color: white;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
 }
 .img-fluid {
   margin-left: 15px;
@@ -91,7 +95,16 @@ footer {
   .info {
     background-color: #c7aa8b;
   }
-  .debut {
+  .objectif {
+    background-color: aqua;
+  }
+  .schema {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel-inner {
+    height: 80vh;
   }
 }
