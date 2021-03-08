@@ -1,4 +1,10 @@
 @charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 #scroll_to_top {
   position: fixed;
   width: 25px;
@@ -24,6 +30,54 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.SHOW {
+  text-align: center;
+}
+
+.img_show {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animation {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background: #303030;
+  color: #FF4633;
+  padding: 3rem 0;
+}
+footer .container-fluid {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+footer .bi-facebook {
+  margin-top: 99px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .SHOW {
+    margin-top: 25%;
+  }
+
+  .Partner {
+    margin-top: 25%;
+  }
 }
 
 /*# sourceMappingURL=evenement.css.map */

@@ -9,14 +9,7 @@ h1{
   text-align: center;
   color: #FF4633;
 }
-.carousel-item h1 {
-  position: absolute;
-  margin: 0;
-  color: white;
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%, -50%);
-}
+
 .img-fluid {
   margin-left: 15px;
   height: 30vh;
@@ -49,7 +42,16 @@ h1{
     height: 376px;
   }
    .debut {
-     background: saddlebrown;
+     background: #BBAE98;
+     border-bottom: 1px solid black;
+   }
+   .info {
+     background: #BBAE98;
+     border-bottom: 1px solid black;
+   }
+   .objectif {
+     background: #BBAE98;
+     border-bottom: 1px solid black;
    }
    .ampoule {
      height: 200px;
@@ -65,7 +67,8 @@ h1{
    }
 
    .citation {
-     background: yellow;
+     background: white;
+     text-align: center;
      height: 100%;
    }
 
@@ -75,7 +78,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  background: lightgray;
+  background: #303030;
   color: #FF4633;
   padding: 3rem 0;
 
@@ -92,14 +95,18 @@ footer {
 }
 
 @media  screen and (min-width: 768px){
-  .info {
-    background-color: #c7aa8b;
-  }
-  .objectif {
-    background-color: aqua;
-  }
+
   .schema {
     text-align: center;
+  }
+  .debut {
+    border-bottom: none;
+  }
+  .info {
+    border-bottom: none;
+  }
+  .objectif {
+    border-bottom: none;
   }
 }
 
