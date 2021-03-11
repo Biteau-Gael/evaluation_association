@@ -43,6 +43,7 @@ h1{
   }
    .debut {
      background: #BBAE98;
+     border-top: 1px solid black;
      border-bottom: 1px solid black;
    }
    .info {
@@ -96,17 +97,14 @@ footer {
 
 @media  screen and (min-width: 768px){
 
-  .schema {
-    text-align: center;
-  }
-  .debut {
-    border-bottom: none;
-  }
+.work {
+  border-bottom: 1px solid black;
+}
   .info {
-    border-bottom: none;
+    border-top: 1px solid black;
   }
   .objectif {
-    border-bottom: none;
+    border-top: 1px solid black;
   }
 }
 
