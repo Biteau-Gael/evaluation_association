@@ -1,0 +1,130 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  background: whitesmoke;
+  font-family: sans-serif;
+}
+
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+  z-index: 10;
+}
+
+#scroll_to_top img {
+  width: 25px;
+}
+
+.BARNABÉ {
+  text-align: center;
+}
+
+.bi-instagram {
+  margin-top: 100px;
+}
+
+.btn-primary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.SHOW {
+  text-align: center;
+}
+
+.img_show {
+  display: block;
+  height: 300px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animation {
+  text-align: center;
+}
+
+.animation2 {
+  margin-top: 36vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  background: #303030;
+  color: #FF4633;
+  padding: 3rem 0;
+}
+footer .container-fluid {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+footer .bi-facebook {
+  margin-top: 99px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .img_show {
+    padding: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .SHOW {
+    margin-top: 25%;
+  }
+
+  .Partner {
+    margin-top: 25%;
+  }
+
+  .animation {
+    margin-left: 40vw;
+    margin-top: -20vh;
+  }
+}
+.animation2 {
+  text-align: center;
+  margin-top: 72px;
+  position: relative;
+}
+
+.introduction {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 1024px) {
+  .animation {
+    margin-left: 28vw;
+    margin-top: -20vh;
+  }
+}
+@media screen and (min-width: 1430px) {
+  .introduction {
+    margin-top: 100px;
+    margin-left: 22vw;
+  }
+
+  .animation {
+    margin-left: 15vw;
+    margin-top: -100px;
+    margin-bottom: -100px;
+  }
+}
+
+/*# sourceMappingURL=evenement.css.map */

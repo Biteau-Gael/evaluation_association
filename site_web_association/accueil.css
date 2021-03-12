@@ -1,0 +1,116 @@
+.explication {
+  text-align: center;
+  font-weight: 200;
+}
+
+h1 {
+  text-align: center;
+  color: #FF4633;
+}
+
+.img-fluid {
+  margin-left: 15px;
+  height: 30vh;
+}
+
+.carousel .carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+  z-index: 10;
+}
+
+#scroll_to_top img {
+  width: 25px;
+}
+
+.carousel-inner {
+  height: 376px;
+}
+
+.debut {
+  background: #BBAE98;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.info {
+  background: #BBAE98;
+  border-bottom: 1px solid black;
+}
+
+.objectif {
+  background: #BBAE98;
+  border-bottom: 1px solid black;
+}
+
+.ampoule {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pantalon {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.citation {
+  background: white;
+  text-align: center;
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background: #303030;
+  color: #FF4633;
+  padding: 3rem 0;
+}
+footer .container-fluid {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+footer .bi-instagram {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .work {
+    border-bottom: 1px solid black;
+  }
+
+  .info {
+    border-top: 1px solid black;
+  }
+
+  .objectif {
+    border-top: 1px solid black;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .carousel-inner {
+    height: 80vh;
+  }
+}
+
+/*# sourceMappingURL=accueil.css.map */
